@@ -22,7 +22,7 @@ function diminuiTamanho() {
     geraSenha();
 }
 function aumentaTamanho() {
-    if (tamanhoSenha < 20) {
+    if (tamanhoSenha < 22) {
         // tamanhoSenha = tamanhoSenha+1;
         tamanhoSenha++;
     }
@@ -30,7 +30,7 @@ function aumentaTamanho() {
     geraSenha();
 }
 
-for (i = 0; i < checkbox.length; i++) {
+for (i = 0; i < csheckbox.length; i++) {
     checkbox[i].onclick = geraSenha;
 }
 
